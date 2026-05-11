@@ -35,6 +35,16 @@ public class Noce : MonoBehaviour
             i++;
 
         }
+        while ( i < nombres.Count)
+        {
+            print(nombres[i]);
+            if (nombres[i] == "c")
+            {
+                print("el elemento c se encuentra en la posicion " + i);
+
+            }
+
+        }
 
 
 
